@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<body background="pictures\background2.jpeg"style="background-size: cover; background-attachment: fixed; background-position: center; background-repeat: no-repeat;">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 20px;
+  font-family: Arial;
+}
+
+
+.main {
+  max-width: 1000px;
+  margin: auto;
+  color: black;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+
+.column {
+  float: left;
+  width: 40%;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+
+<div class="main">
+
+
+<h2 style="text-align: center;">@nehs_</h2>
+
+
+
+ <a href="index.html"><img src="pictures\icon4.png"></a>&nbsp; &nbsp;&nbsp;&nbsp;
+  <a href="contact.html"><img src="pictures\icon1.png" align="right" width="25px" height="25px"></a>&nbsp;
+
+
+
+
+<div class="row">
+  <div class="column">
+    <div class="content">
+ <p style="text-align: justify;"><a href="blog.html"> <img src="pictures\journey2.jpg" style="width:100%" height="350PX"></a>
+      <h3>THE JOURNEY BLOG</h3>
+      
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="content">
+       <p style="text-align: justify;"><a href="poetry.html"> <img src="pictures\poetry1.jpg" style="width:100%" height="350PX">
+       </a>
+      <h3>THE POETRY BEHIND MY MISERY</h3>
+
+   
+    </div>
+  </div>
+ 
+
+</div>
+
+</body>
+</html>
